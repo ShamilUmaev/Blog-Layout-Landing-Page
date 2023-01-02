@@ -7,7 +7,6 @@
 }
 html, body {
     width: 100%;
-    min-height: 100vh;
     font-size: 62.5%;
     font-family: 'Merriweather', serif;
 }
@@ -21,7 +20,7 @@ h1, h3, h6 {
 }
 .inner-container {
     width: 65%;
-    margin: 10rem auto 1rem;
+    margin: 10rem auto 3rem;
 }
 .header-container > h1 {
     font-size: 3.5rem;
