@@ -16,7 +16,7 @@ h1, h3, h6 {
 .page-container {
     max-width: 1450px;
     min-width: 1100px;
-    margin: 0 auto;
+    margin: 0 auto 3rem;
 }
 .inner-container {
     width: 65%;
@@ -77,4 +77,45 @@ h1, h3, h6 {
 .footer-container h3 {
     font-size: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+    html, body {
+        font-size: 100%;
+    }
+
+    .inner-container {
+        width: 90%;
+        margin: 5rem auto 3rem;
+    }
+    
+    .big-post-container {
+        display: block;
+    } 
+
+    .big-post-container > img {
+        width: 100%;
+    }
+
+    .big-post-container .post-details {
+        margin-top: 1rem;
+    }
+
+    .footer-container {
+        display: block;
+    }
+
+    .post-details {
+        margin-top: 5rem;
+        width: 100%;
+    }
+
+    .bio {
+        width: 37%;
+    }
+
+    .bio > img {
+        width: 60px;
+        height: 60px;
+    }
+  }
 
