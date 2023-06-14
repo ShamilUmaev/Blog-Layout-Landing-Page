@@ -57,7 +57,7 @@ h1, h3, h6 {
     margin: 1.5rem 0;
 }
 .bio {
-    width: 82%;
+    width: 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -114,7 +114,7 @@ h1, h3, h6 {
     }
 
     .bio {
-        width: 50%;
+        width: 205px;
     }
 
     .bio > img {
