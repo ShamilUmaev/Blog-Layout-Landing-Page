@@ -7,11 +7,8 @@
 }
 html {
     font-size: 62.5%;
-    width: 100%; /* New */
 }
 body {
-    width: 100%; /* New */
-    height: 100%;
     font-family: 'Merriweather', serif;
 }
 h1, h3, h6 {
@@ -19,7 +16,6 @@ h1, h3, h6 {
 }
 .page-container {
     max-width: 1450px;
-    min-width: 350px;
     margin: 0 auto;
     padding: 6rem 0;
 }
@@ -122,6 +118,7 @@ h1, h3, h6 {
     }
 
     .page-container {
+        min-width: 350px;
         padding: 3rem 0;
     }
 
