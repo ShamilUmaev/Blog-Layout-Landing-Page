@@ -19,6 +19,7 @@ h1, h3, h6 {
 }
 .page-container {
     max-width: 1450px;
+    min-width: 350px;
     margin: 0 auto;
     padding: 6rem 0;
 }
@@ -82,7 +83,39 @@ h1, h3, h6 {
     font-size: 2rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
+
+    .inner-container {
+        width: 90%;
+    }
+    
+    .big-post-container {
+        display: flex;
+        margin: 2.5rem 0;
+    } 
+
+    .big-post-container > img {
+        width: 65%;
+    }
+
+    .big-post-container .post-details {
+        margin-top: 1rem;
+        width: 30%;
+    }
+
+    .bio > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-container {
+        display: block;
+        display: flex;
+    }
+  }
+
+
+@media only screen and (max-width: 768px) {
 
     html {
         font-size: 55%;
@@ -111,15 +144,20 @@ h1, h3, h6 {
 
     .big-post-container .post-details {
         margin-top: 1rem;
+        width: 100%;
     }
 
     .bio {
-        width: 215px;
+        width: 200px;
     }
 
     .bio > img {
         width: 40px;
         height: 40px;
+    }
+
+    .bio p {
+        font-size: 1.4rem;
     }
 
     .footer-container {
@@ -131,4 +169,3 @@ h1, h3, h6 {
         width: 100%;
     }
   }
-
