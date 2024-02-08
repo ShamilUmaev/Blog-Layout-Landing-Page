@@ -15,7 +15,7 @@ h1, h3, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 .page-container {
-    max-width: 1450px;
+    max-width: 1920px;
     margin: 0 auto;
     padding: 6rem 0;
 }
@@ -118,7 +118,7 @@ h1, h3, h6 {
     }
 
     .page-container {
-        min-width: 350px;
+        min-width: 375px;
         padding: 3rem 0;
     }
 
